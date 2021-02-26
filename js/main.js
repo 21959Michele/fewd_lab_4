@@ -1,7 +1,8 @@
+  
 var restaurant = {
-  name : 'Park',
-  tables : 120,
-  booked : 77
+  name : 'Fresh',
+  tables : 100,
+  booked : 33
 };
 
 restaurant.fireplace = true;
@@ -15,4 +16,4 @@ var elCarpark = document.getElementById('carpark');
 elCarpark.className = restaurant.carpark;                     
 
 var elFireplace = document.getElementById('fireplace');        
-elFireplace.className = restaurant.fireplace;                      
+elFireplace.className = restaurant.fireplace; 

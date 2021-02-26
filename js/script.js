@@ -1,8 +1,8 @@
 var restaurant = {
     // Object properties
-    name: 'Clayton',
-    tables: 110,
-    booked: 25,
+    name: 'Fresh',
+    tables: 100,
+    booked: 33,
     fireplace: true,
     tableTypes: ['single', 'couple', 'group', 'party'],
     checkAvailablity: function() {

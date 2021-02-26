@@ -7,7 +7,7 @@ function Restaurant(name, tables, booked){
     };
 }
 
-var clyatonRestaurant = new Restaurant('Clayton', 128, 25);
-var lemonRestaurant = new Restaurant('Lemon', 76, 14 )
+var theBankRestaurant = new Restaurant('The Bank', 128, 25);
+var wuffRestaurant = new Restaurant('Wuff Restaurant', 76, 14 )
 
-console.log(clyatonRestaurant, lemonRestaurant);
+console.log(theBankRestaurant, wuffRestaurant);
